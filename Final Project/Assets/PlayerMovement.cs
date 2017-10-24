@@ -9,9 +9,20 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 moveDirection;
     
+	void Start()
+	{
+		Cursor.lockState = CursorLockMode.Locked;
+	}
+
+
     void Update()
     {
         moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+
+		if (Input.GetKey (KeyCode.Escape)) 
+		{
+			Cursor.lockState = CursorLockMode.None;
+		}
     }
     
     void FixedUpdate()

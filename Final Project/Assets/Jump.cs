@@ -11,11 +11,9 @@ public class Jump : MonoBehaviour
 
 	Rigidbody rb;
 
-	public GameObject Player;
 	// Use this for initialization
 	void Start () 
 	{
-		Player = this.transform.gameObject;
 		rb = this.GetComponent<Rigidbody> ();
 		SetJumps = jumps;
 		SetJumpPower = JumpPower;
