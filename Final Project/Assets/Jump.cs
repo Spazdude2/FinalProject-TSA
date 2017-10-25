@@ -5,7 +5,6 @@ using UnityEngine;
 public class Jump : MonoBehaviour 
 {
 	public float JumpPower;
-	float SetJumpPower;
 	public int jumps;
 	int SetJumps;
 
@@ -16,7 +15,6 @@ public class Jump : MonoBehaviour
 	{
 		rb = this.GetComponent<Rigidbody> ();
 		SetJumps = jumps;
-		SetJumpPower = JumpPower;
 	}
 
 	// Update is called once per frame
@@ -35,11 +33,5 @@ public class Jump : MonoBehaviour
 	void OnCollisionEnter (Collision collision)
 	{
 		jumps = SetJumps;
-		JumpPower = SetJumpPower;
-	}
-
-	void OnCollisionExit (Collision Collision)
-	{
-		JumpPower = JumpPower * 1.5f;
 	}
 }

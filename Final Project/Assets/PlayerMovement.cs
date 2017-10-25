@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
 
     private Vector3 moveDirection;
+
+    public Transform FPS;
     
 	void Start()
 	{

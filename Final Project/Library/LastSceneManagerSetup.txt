@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Acrually getting somewhere.unity
+- path: Assets/Has Moon.unity
   isLoaded: 1
   isActive: 1
