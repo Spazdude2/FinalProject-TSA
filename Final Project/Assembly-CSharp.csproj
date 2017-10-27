@@ -53,12 +53,18 @@
   <ItemGroup>
      <Compile Include="Assets\camMouseLook.cs" />
      <Compile Include="Assets\Elven Long Bow\Crosshair.cs" />
+     <Compile Include="Assets\GobalGravity.cs" />
      <Compile Include="Assets\Gravity.cs" />
      <Compile Include="Assets\Gun.cs" />
      <Compile Include="Assets\Jump.cs" />
+     <Compile Include="Assets\Moon.cs" />
      <Compile Include="Assets\PlanetGravity.cs" />
      <Compile Include="Assets\PlayerGravity.cs" />
-     <Compile Include="Assets\PlayerMovement.cs" />
+     <Compile Include="Assets\PlayerTurning.cs" />
+     <Compile Include="Assets\Scripts\Breakable.cs" />
+     <Compile Include="Assets\Scripts\FirstPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\FirstPersonProjectile.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\shot.cs" />
      <Compile Include="Assets\StickyBomb.cs" />
      <Compile Include="Assets\SwitchSong.cs" />
